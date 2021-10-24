@@ -1,0 +1,8 @@
+.side-bar-menu__spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  background-color: var(--menu-primary-color);
+}

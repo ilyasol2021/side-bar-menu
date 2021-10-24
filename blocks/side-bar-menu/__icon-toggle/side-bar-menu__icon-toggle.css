@@ -1,0 +1,18 @@
+.side-bar-menu__icon-toggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 17px;
+  left: 15px;
+  height: 25px;
+  width: 32px;
+  transition: transform .3s;
+}
+
+.side-bar-menu__icon-toggle:hover {
+  transform: scale(1.2);
+}

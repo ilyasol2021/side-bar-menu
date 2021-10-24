@@ -1,0 +1,6 @@
+.side-bar-menu__diagonal-top {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}

@@ -1,0 +1,30 @@
+/* файл настройки бокового меню */
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+:root {
+  /* основной цвет */
+  --menu-primary-color: #fcf963f8;
+  /* второстепенный цвет (используется для градиента) */
+  --menu-secondary-color: #fbbf3f;
+  /* цвет заголовков меню */
+  --menu-text-title-color: rgb(238, 142, 142);
+  /* цвет описания пунктов меню */
+  --menu-text-color: rgba(238, 142, 142, 0.30);
+  /* шрифт */
+  --menu-font: 'Varela Round', sans-serif;
+  /* размер меню */
+  --menu-width: 200px;
+}
+
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    font-family: 'Varela Round', sans-serif;
+}
+

@@ -1,0 +1,29 @@
+.side-bar-menu__inner {
+  margin-top: 60px;
+  padding: 0;
+  transition: transform .3s;
+}
+
+.side-bar-menu__inner > *:hover {
+  transform: scale(1.1) translateX(10px);
+}
+
+.side-bar-menu__inner li {
+  list-style: none;
+  color: var(--menu-text-title-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--menu-text-title-color);
+}
+
+.side-bar-menu__inner li:last-child {
+  border-bottom: none;
+}
+
+.side-bar-menu__inner li span{
+  display: block;
+  font-size: 14px;
+  color: var(--menu-text-color);
+}

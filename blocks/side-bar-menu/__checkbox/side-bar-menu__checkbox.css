@@ -1,0 +1,31 @@
+input[type=checkbox] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+
+input[type=checkbox]:checked ~ .side-bar-menu__icon-toggle > .side-bar-menu__horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+  background-color: var(--menu-text-title-color);
+}
+
+input[type=checkbox]:checked ~ .side-bar-menu__icon-toggle > .side-bar-menu__diagonal-top {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 15px;
+  background-color: var(--menu-text-title-color);
+}
+input[type=checkbox]:checked ~ .side-bar-menu__icon-toggle > .side-bar-menu__diagonal-bottom {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -15px;
+  background-color: var(--menu-text-title-color);
+}
+
+input[type="checkbox"]:checked ~ .side-bar-menu {
+  transform: translateX(0);
+}

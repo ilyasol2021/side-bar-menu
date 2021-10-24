@@ -1,0 +1,12 @@
+.side-bar-menu {
+  height: 100%;
+  position: fixed;
+  left: 0;
+  width: var(--menu-width);
+  margin-top: 0;
+  transform: translateX(calc(-1*var(--menu-width)));
+  transition: transform 250ms ease-in-out;
+  background: linear-gradient(180deg, var(--menu-primary-color) 0%, var(--menu-secondary-color) 100%);
+  font-family: var(--menu-font);
+  overflow: hidden;
+}
